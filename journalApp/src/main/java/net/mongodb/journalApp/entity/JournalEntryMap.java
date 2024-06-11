@@ -1,4 +1,4 @@
-package net.engineeringdigest.journalApp.entity;
+package net.mongodb.journalApp.entity;
 
 public class JournalEntryMap {
     private long id;

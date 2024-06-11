@@ -1,4 +1,4 @@
-package net.engineeringdigest.journalApp.entity;
+package net.mongodb.journalApp.entity;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;

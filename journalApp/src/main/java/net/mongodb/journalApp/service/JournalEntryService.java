@@ -1,7 +1,7 @@
-package net.engineeringdigest.journalApp.service;
+package net.mongodb.journalApp.service;
 
-import net.engineeringdigest.journalApp.entity.JournalEntryEntityDB;
-import net.engineeringdigest.journalApp.repository.JournalEntryRepository;
+import net.mongodb.journalApp.entity.JournalEntryEntityDB;
+import net.mongodb.journalApp.repository.JournalEntryRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -23,7 +23,7 @@ public class JournalEntryService {
     }
 
     //Using the findAll method from MongoDB interface
-    public List<JournalEntryEntityDB> findAll(){
+    public List<JournalEntryEntityDB> findAllX(){
         return journalEntryRepository.findAll();
 
     }

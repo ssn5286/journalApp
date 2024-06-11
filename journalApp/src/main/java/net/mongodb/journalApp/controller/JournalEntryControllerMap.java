@@ -1,6 +1,6 @@
-package net.engineeringdigest.journalApp.controller;
+package net.mongodb.journalApp.controller;
 
-import net.engineeringdigest.journalApp.entity.JournalEntryMap;
+import net.mongodb.journalApp.entity.JournalEntryMap;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
